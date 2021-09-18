@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('assets/Proxima-Nova-Regular.woff2')
+  format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('assets/Proxima-Nova-Semibold.woff2')
+  format('woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('assets/Proxima-Nova-Bold.woff2')
+  format('woff2');
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  font-family: 'Proxima Nova', Arial, Tahoma, PinngFangSC, sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
